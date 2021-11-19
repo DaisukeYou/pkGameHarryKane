@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+body{
+    font-size:16px;
+    line-height: 1.5;
+    color:#424242;    
+    font-family: 'Roboto', "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic,'Meiryo UI',Meiryo,"ＭＳ ゴシック",Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.outer{
+    padding: 80px 0;
+}
+.text-center{
+    text-align: center;
+}
+.page-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.box{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 640px;
+    margin: 24px auto 64px;
+    font-size: 18px;
+}
+
+
+.form-control{
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #296ed7;
+    box-shadow:0 4px 0 #0a3069;
+    margin-left: 8px;
+    padding: 8px 16px;
+    font-size: 18px;
+}
+
+
+.videoPre{
+    width: 720px;
+    height: 576px;
+}
+
+.startButton{
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: red;
+    box-shadow:0 4px 0 black;
+    margin-left: 8px;
+    padding: 8px 16px;
+    font-size: 18px;
+}
+
+.leftGroup{
+    min-width: 200px;
+}
+
+.parent{
+text-align: center;
+}
+
+
+.box-item{
+    display: none;
+}
+
+.successResult{
+    text-align: center;
+}
